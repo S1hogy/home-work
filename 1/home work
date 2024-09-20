@@ -1,9 +1,10 @@
 def dima(a, b, c, d):
-  otvet = (-3+a**2)*b-2**3)/(c-2*d)
+  otvet = ((-3+a**2)*b-2**3)/(c-2*d)
+  return otvet
 
 a = int(input())
 b = int(input())
 c = int(input())
 d = int(input())
 
-dima(a, b, c, d)
+print(dima(a, b, c, d))
